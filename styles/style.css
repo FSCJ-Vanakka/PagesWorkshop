@@ -5,7 +5,6 @@
 }
 
 body{
-    color: orange;
     background-color: rgba(255, 250, 237, 0.379);
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -58,6 +57,11 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-shadow:
+        -1px -1px 0 #fff,
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
 }
 
 .resourceLink img{
