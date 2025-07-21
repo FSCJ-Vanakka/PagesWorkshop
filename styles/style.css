@@ -57,8 +57,9 @@ body{
 }
 
 .resourceLink{
+    color: inherit;
+    text-shadow: inherit;
     text-decoration: none;
-    color: rgb(255, 183, 15);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
