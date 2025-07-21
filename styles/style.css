@@ -5,6 +5,7 @@
 }
 
 body{
+    color: orange;
     background-color: rgba(255, 250, 237, 0.379);
     background-image: url(../images/background.jpg);
     background-size: cover;
