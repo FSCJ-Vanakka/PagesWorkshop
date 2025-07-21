@@ -5,7 +5,12 @@
 }
 
 body{
-    color: rgb(255, 183, 15);
+    color: rgb(255, 186, 58);
+    text-shadow:
+        -1px -1px 0 #fff,
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
     background-color: rgba(255, 250, 237, 0.379);
     background-image: url(../images/background.jpg);
     background-size: cover;
