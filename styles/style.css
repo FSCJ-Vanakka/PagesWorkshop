@@ -53,7 +53,7 @@ body{
 
 .resourceLink{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 183, 15);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
