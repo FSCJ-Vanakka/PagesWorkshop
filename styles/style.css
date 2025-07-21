@@ -1,16 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     color: rgb(0, 0, 0);
     text-shadow:
-        -1px -1px 0 #fff,
-         1px -1px 0 #fff,
-        -1px  1px 0 #fff,
-         1px  1px 0 #fff;
+        -1px -1px 0 rgb(255, 255, 255),
+         1px -1px 0 rgb(255, 255, 255),
+        -1px  1px 0 rgb(255, 255, 255),
+         1px  1px 0 rgb(255, 255, 255);
     background-color: rgba(255, 250, 237, 0.379);
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -18,45 +18,47 @@ body{
     background-position: bottom;
 }
 
-.container{
+.container {
     min-height: 100dvh;
     width: 100%;
     background-color: rgba(255, 250, 237, 0);
 }
 
-.pageTitle{
+.pageTitle {
     padding-top: 50px;
     text-align: center;
 }
 
-.resourceContainer{
+.resourceContainer {
     margin: 30px auto;
     max-width: 800px;
 }
 
-.innerTitle{
+.innerTitle {
     text-align: center;
     text-decoration: underline;
     margin-top: 30px;
 }
 
-.resources{
+.resources {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.resource{
+.resource {
     margin: 10px 25px;
     transition: .3s ease-in-out;
+    position: relative; /* For positioning the overlay */
 }
 
-.resource:hover{
+.resource:hover {
     transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.6); /* Opaque white background on hover */
 }
 
-.resourceLink{
+.resourceLink {
     color: inherit;
     text-shadow: inherit;
     text-decoration: none;
@@ -66,16 +68,16 @@ body{
     align-items: center;
 }
 
-.resourceLink img{
+.resourceLink img {
     width: 50px;
     height: 50px;
 }
 
-.resourceLink p{
+.resourceLink p {
     text-align: center;
 }
 
-#resumeDownload{
+#resumeDownload {
     display: block;
     max-width: 200px;
     text-align: center;
@@ -83,21 +85,21 @@ body{
     border-radius: 10px;
     padding: 10px 2.5px;
     margin: 15px auto 0 auto;
-    color: black;
+    color: rgb(0, 0, 0); /* Match body color */
     background-color: rgba(255, 255, 255, 0.4);
     font-family: sans-serif;
     text-decoration: none;
-    box-shadow: 0 0 0 black;
+    box-shadow: 0 0 0 rgb(0, 0, 0);
     transition: 0.3s ease-in-out;
 }
 
-#resumeDownload:hover{
+#resumeDownload:hover {
     background-color: rgba(255, 255, 255, 0.8);
     transform: translate(-3px, -3px);
-    box-shadow: 3px 3px 0 black;
+    box-shadow: 3px 3px 0 rgb(0, 0, 0);
 }
 
-.projectsContainer{
+.projectsContainer {
     max-width: 1520px;
     margin: 0 auto;
     padding: 50px 0;
@@ -107,21 +109,26 @@ body{
     align-items: center;
 }
 
-.project{
+.project {
     max-width: 300px;
     margin: 20px 0;
+    position: relative; /* For positioning the overlay */
 }
 
-.projectTitle{
+.project:hover {
+    background-color: rgba(255, 255, 255, 0.6); /* Opaque white background on hover */
+}
+
+.projectTitle {
     text-align: center;
     text-decoration: underline;
     margin-bottom: 5px;
 }
 
-.projectLink{
+.projectLink {
     max-width: 250px;
 }
 
-.projectImage{
+.projectImage {
     width: 100%;
 }
