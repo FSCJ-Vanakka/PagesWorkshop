@@ -6,11 +6,6 @@
 
 body{
     background-color: rgba(255, 250, 237, 0.379);
-    text-shadow:
-        -1px -1px 0 #fff,
-         1px -1px 0 #fff,
-        -1px  1px 0 #fff,
-         1px  1px 0 #fff;
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -62,11 +57,6 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    text-shadow:
-    -1px -1px 0 #fff,
-     1px -1px 0 #fff,
-    -1px  1px 0 #fff,
-     1px  1px 0 #fff;
 }
 
 .resourceLink img{
